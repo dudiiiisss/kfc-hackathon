@@ -1,0 +1,39 @@
+.container_card { 
+    width: 75%; 
+    margin: auto; 
+  } 
+   
+  .product_card { 
+    width: 90%; 
+    background-color: white; 
+    border-radius: 10px; 
+  } 
+   
+  .product_img { 
+    width: 100%; 
+  
+    border-radius: 9px; 
+  } 
+   
+  .product_price { 
+    color: black; 
+  } 
+   
+  .product_card_bottom { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 87%; 
+    margin: auto; 
+  }
+
+  .product_desc{
+    color: gray;
+  }
+
+  .product_title{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
