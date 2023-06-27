@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
 import "./styles.css";
 
 // import required modules
@@ -25,24 +24,30 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div style={{maxWidth:"100%"}}>
-                <img src="https://www.kfc.kg/admin/files/5604.jpg" alt="" />
-            </div>
+          <div style={{ maxWidth: "100%" }}>
+            <img src="https://www.kfc.kg/admin/files/5604.jpg" alt="" />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div style={{maxWidth:"100%"}}>
-                <img src="https://www.kfc.kg/admin/files/5564.jpg" alt="" />
-            </div>
+          <div style={{ maxWidth: "100%" }}>
+            <img src="https://www.kfc.kg/admin/files/5564.jpg" alt="" />
+          </div>
         </SwiperSlide>
-        <SwiperSlide><div style={{maxWidth:"100%"}}>
-                <img src="https://www.kfc.kg/admin/files/5555.jpg" alt="" />
-            </div></SwiperSlide>
-        <SwiperSlide><div style={{maxWidth:"100%"}}>
-                <img src="https://www.kfc.kg/admin/files/5576.jpg" alt="" />
-            </div></SwiperSlide>
-        <SwiperSlide><div style={{maxWidth:"100%"}}>
-                <img src="https://www.kfc.kg/admin/files/5571.jpg" alt="" />
-            </div></SwiperSlide>
+        <SwiperSlide>
+          <div style={{ maxWidth: "100%" }}>
+            <img src="https://www.kfc.kg/admin/files/5555.jpg" alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ maxWidth: "100%" }}>
+            <img src="https://www.kfc.kg/admin/files/5576.jpg" alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ maxWidth: "100%" }}>
+            <img src="https://www.kfc.kg/admin/files/5571.jpg" alt="" />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
